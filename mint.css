@@ -23,6 +23,7 @@ body{
 }
 
 #signInwindow {
+    box-sizing: border-box;
     width: 380px;
     height: 620px;
     border-style: solid;
@@ -33,6 +34,7 @@ body{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -40,6 +42,10 @@ body{
 
 }
 
+.alignLeft {
+    display: flex;
+    align-self: flex-start;
+}
 /* .centered {
     display: flex;
     justify-content: center;
@@ -58,7 +64,11 @@ body{
     font-size: 14px;
     
 }
-
+form section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 .link {
     text-decoration: none;
     color: rgb(0, 119, 197);
