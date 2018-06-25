@@ -1,8 +1,6 @@
 body{
     background-color: #ECEEF1;
     font-family: 'Quicksand', Arial, sans-serif;
-    
-   
 }
 
 #header {
@@ -40,11 +38,6 @@ body{
 
 }
 
-/* .centered {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-} */
 
 #signInwindow h2 {
     text-align: center;
