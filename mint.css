@@ -15,9 +15,6 @@ body{
     display: flex;
     justify-content: center; 
 }
-.alignLogo {
-    align-content: center;
-}
 
 .productLogo {
     color: rgb(151, 154, 160);  
@@ -32,15 +29,37 @@ body{
     border-width: 1px;
     border-color: #C7C7C7;
     background-color: white;
-    display: flex;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #signInwindow h2 {
     text-align: center;
-    font-weight: ;
+    font-size: 24px;
+    font-weight: 400; 
+    line-height:1.1;
+    color: #4c4c4c;
+}
+
+#signInwindow p{
+    font-size: 14px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+}
+
+.link:hover {
+    text-decoration: underline;
 }
