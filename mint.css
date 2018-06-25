@@ -33,14 +33,18 @@ body{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
 
 }
 
-.centered {
+/* .centered {
     display: flex;
     justify-content: center;
     text-align: center;
-}
+} */
 
 #signInwindow h2 {
     text-align: center;
